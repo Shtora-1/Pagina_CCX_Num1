@@ -10,8 +10,6 @@
 
 <section class="pagina-galeria">
 
-  <a href="index.html" class="btn-inicio">Inicio</a>
-
   <img src="assets/logo.png" class="logo-acerca">
 
   <h2 class="titulo-acerca">Galería</h2>
@@ -25,6 +23,7 @@
   <div class="card">
 
     <div class="galeria-grid">
+      
 
   <img src="assets/galeria1.jpg" onclick="abrirModal(this.src)">
   <img src="assets/galeria2.jpg" onclick="abrirModal(this.src)">
@@ -59,19 +58,19 @@
   <img src="assets/galeria11 (9).jpeg" onclick="abrirModal(this.src)">
 
 
-  <video width="300" onclick="abrirVideo('assets/video1.mp4')" muted>
+  <video width="300" controls muted onclick="abrirVideo('assets/video1.mp4')">
     <source src="assets/video1.mp4" type="video/mp4">
   </video>
 
-  <video width="300" onclick="abrirVideo('assets/video2.mp4')" muted>
+<video width="300" controls muted onclick="abrirVideo('assets/video2.mp4')">
     <source src="assets/video2.mp4" type="video/mp4">
   </video>
 
-  <video width="300" onclick="abrirVideo('assets/video3.mp4')" muted>
+  <video width="300" controls muted onclick="abrirVideo('assets/video3.mp4')">
     <source src="assets/video3.mp4" type="video/mp4">
   </video>
 
-  <video width="300" onclick="abrirVideo('assets/video4.mp4')" muted>
+ <video width="300" controls muted onclick="abrirVideo('assets/video4.mp4')">
     <source src="assets/video4.mp4" type="video/mp4">
   </video>
 
@@ -80,10 +79,12 @@
   </div>
 
 </section>
+ <a href="index.html" class="btn-inicio">Inicio</a>
 
 <footer class="footer">
   <small>© 2026 Centro de Computación Xicotepec — Todos los derechos reservados.</small>
 </footer>
+
 
 
 <div id="modal" class="modal" onclick="cerrarModal()">

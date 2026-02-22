@@ -107,8 +107,9 @@ body {
     }
 }
 .btn-inicio {
-    display: inline-block;
-    float: left;
+   display: block;
+  width: fit-content;
+  margin: 20px auto;
 }
 
 .p
